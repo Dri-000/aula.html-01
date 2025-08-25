@@ -1,0 +1,23 @@
+body{
+
+    background-color: rgb(170, 170, 170);
+
+}
+
+header{
+
+    background-color: black;
+    height: 6.5rem;
+    color: white;
+    font-size: 3rem;
+    display: flex;
+    align-items: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+h1{
+
+    margin: auto;
+
+}
