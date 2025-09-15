@@ -1,16 +1,60 @@
+:root{
+
+    --cor-1: rgb(122, 122, 122);
+    --cor-2: rgb(255, 255, 255);
+    --cor-3: rgb(0, 0, 0);
+    --cor-4: red;
+    --cor-5: orange;
+    --cor-6: yellow;
+    --cor-7: rgb(72, 228, 85);
+    --cor-8: blue;
+    --cor-9: purple;
+    --cor-10: pink;
+    --cor-11: brown;
+
+    --tam-font0: 0.5em;
+    --tam-font1: 1em;
+    --tam-font1-02: 1.2em;
+    --tam-font3\2: 1.5em;
+    --tam-font2: 2em;
+    --tam-font3: 3em;
+    --tam-font4: 4em;
+    --tam-font5: 5em;
+    --tam-font6: 6em;
+    --tam-font7: 7em;
+    --tam-font8: 8em;
+    --tam-font9: 9em;
+    --tam-font10: 10em;
+    --tam-font-menu: 14.5em;
+    --tam-font-imagem-x: 19em;
+    --tam-font-imagem-y: 17em;
+
+    --tama-font0: 0.5rem;
+    --tama-font1: 1rem;
+    --tama-font2: 2rem;
+    --tama-font3: 3rem;
+    --tama-font4: 4rem;
+    --tama-font5: 5rem;
+    --tama-font6: 6rem;
+    --tama-font7: 7rem;
+    --tama-font8: 8rem;
+    --tama-font9: 9rem;
+    --tama-font-propagandas-2-4: 50rem;
+
+}
+
 body{
 
-    background-color: rgb(170, 170, 170);
-
+    background-color: var(--cor-1);
+    
 }
 
 header{
 
-    background-color: black;
-    height: 6.5rem;
-    color: white;
-    font-size: 3rem;
-    display: flex;
+    color: var(--cor-2);
+    background-color: var(--cor-3);
+    height: var(--tam-font6);
+    font-size: var(--tam-font3);
     align-items: center;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 
@@ -21,3 +65,10 @@ h1{
     margin: auto;
 
 }
+
+.anuncio{
+
+    color: aqua;
+
+}
+
